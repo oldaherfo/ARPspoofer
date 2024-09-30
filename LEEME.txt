@@ -1,0 +1,33 @@
+Advertencia:
+**El uso de esta herramienta es únicamente para fines educativos y de prueba. No debe utilizarse en redes o sistemas sin el permiso explícito del propietario.**
+
+# Herramienta ARP Spoofer:
+Esta es una herramienta simple de ARP spoofing construida en Python y Tkinter para la interfaz gráfica. Envía paquetes ARP falsificados a una dirección IP objetivo y a un gateway para realizar un ataque Man-in-the-Middle (MITM). El ataque se puede iniciar y detener usando botones en la interfaz gráfica.
+
+## Características
+- Interfaz gráfica construida con Tkinter
+- Falsificación de paquetes ARP
+- Inicio y detención del ataque a través de la interfaz gráfica
+- Simple y ligero
+
+## Requisitos
+Este proyecto requiere Python y las siguientes bibliotecas:
+- scapy
+- tkinter
+
+## Cómo Usar
+1. Clona este repositorio.
+2. Instala las dependencias requeridas utilizando `pip install -r requirements.txt`.
+3. Ejecuta el archivo `ARPspoofer.py`.
+4. Ingresa la dirección IP de la víctima y la dirección IP del gateway en los campos de entrada.
+5. Haz clic en "Comenzar Ataque" para iniciar el ataque.
+6. Haz clic en "Detener Ataque" para detener el ataque.
+
+## Ejecución del Programa
+python ARPspoofer.py
+
+Tambien he dejado un archivo ejecutable "ARPpoissoning.exe" para que puedas probar el programa sin instalar ninguna dependencia en entornos Windows.
+
+Asegúrate de tener los permisos necesarios y de estar probando en un entorno autorizado. El ARP spoofing puede interrumpir la comunicación de la red.
+
+Este proyecto fue creado por oldaherfo - 2024. Úsalo de manera responsable.
